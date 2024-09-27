@@ -1,0 +1,31 @@
+.AppBar {
+    font-size: 1.2em;
+    color: #1f17bf;
+    z-index: 1000;
+
+    background-color: whitesmoke;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    position: sticky;
+    top: 0;
+    height: 93px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AppBar:hover {
+    cursor: pointer;
+}
+
+.Title {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.TitleFav {
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,0 +1,16 @@
+.FeedLink {
+    color: #1E68A6;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.FeedFav {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 7px;
+}
+
+.FeedLink:hover, .FeedLink:active {
+    text-decoration: underline;
+}

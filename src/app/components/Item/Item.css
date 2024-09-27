@@ -1,0 +1,72 @@
+.Item {
+    font-family: Alef, sans-serif;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ItemHeader {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.ItemDate {
+    color: #777777;
+}
+
+.BlogTitle {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #1E68A6;
+}
+
+.BlogTitle:hover, .FeedLink:active {
+    text-decoration: underline;
+}
+
+.BlogTitleAndFav {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.ItemFav {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.FeedDiv {
+    margin-left: 5px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.FeedLink {
+    color: #1E68A6;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.FeedLink:hover, .FeedLink:active {
+    text-decoration: underline;
+}
+
+.ItemLink {
+    font-weight: bold;
+    color: #1E68A6;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.ItemLink:hover, .ItemLink:active {
+    text-decoration: underline;
+}
